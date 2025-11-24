@@ -71,7 +71,7 @@
      - apiGroups: ["storage.k8s.io"]
        resources:
          - storageclasses
-       verbs: ["get", "list", "watch"]
+       verbs: ["get", "list", "watch", "create"]
    ```
 
 5. **Bind the ClusterRole to the Service Account**:
