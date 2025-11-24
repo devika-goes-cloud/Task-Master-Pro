@@ -29,4 +29,5 @@ jobs:
       with:
         projectBaseDir: "."
         args: >
-          -Dsonar.projectKey=my-java-app
+          -Dsonar.projectKey=java-app
+          -Dsonar.projectName=JavaAPP-Pro
